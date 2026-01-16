@@ -1,3 +1,39 @@
-.env
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.env.*
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test/coverage
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Migrations (optional, uncomment if you want to ignore)
+# */migrations/*
+# !*/migrations/__init__.py
